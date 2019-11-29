@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#3333">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/edtlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:text="Welcome!"
+            android:textColor="#536DFE"
+            android:textSize="45dp"
+            android:textStyle="bold"
+            android:layout_marginTop="56dp"/>
+
+
+        <TextView
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you don't ave a Tufunze account,tap the sign up button to get started"
+            android:fontFamily="serif"
+            android:paddingLeft="35dp"
+            android:paddingRight="64dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/header"
+        android:padding="15dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_marginTop="45dp"
+            android:background="@drawable/btn_login"
+            android:id="@+id/btnregister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up" />
+
+        <Button
+            android:layout_marginTop="25dp"
+            android:background="@drawable/btn_login"
+            android:id="@+id/btnlogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="login" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:id="@+id/ttview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions." />
+    </LinearLayout>
+
+
+</RelativeLayout>

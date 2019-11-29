@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163654360589",
+    "firebase_url": "https://tufunze-86485.firebaseio.com",
+    "project_id": "tufunze-86485",
+    "storage_bucket": "tufunze-86485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163654360589:android:26b0d0a2f080c6b048bf44",
+        "android_client_info": {
+          "package_name": "com.example.tufunze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163654360589-erv01vsumcqivvrjp4dsneqjgqds0mgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tufunze",
+            "certificate_hash": "913cdbdaf19b2a9b2772008572c4ba9c59ff1465"
+          }
+        },
+        {
+          "client_id": "163654360589-pr4jruhbe2bvve96g6i7q8m18b6ff2m6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVXB4YGs1YqmB8cflXzsYQUaW-k5W0ZRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163654360589-pr4jruhbe2bvve96g6i7q8m18b6ff2m6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
